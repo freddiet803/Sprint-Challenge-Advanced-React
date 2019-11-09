@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render player card without crashing 1`] = `
+<div>
+  <h3>
+    Player: 
+    name
+  </h3>
+  <p>
+    Country: 
+    U S
+  </p>
+  <p>
+    Searches: 
+    400
+  </p>
+</div>
+`;
+
+exports[`render without Header crashing 1`] = `undefined`;
+
+exports[`render without WorldCup crashing 1`] = `undefined`;
+
+exports[`render without crashing 1`] = `undefined`;
