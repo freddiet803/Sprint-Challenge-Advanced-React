@@ -23,9 +23,27 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+      a lot of older code is written in class components and class components are better for passing along state and use logic.
+      class components have access to the lifecycle methods.
+
+  i see the only benefit as being able to update code easily and not have to refactor class into functional
+
 - [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+      mounting - compoenentDidMount is the phase the component we created and the code is inserted into the dom
+
+  updating - componentDidUpdate - is the phase when the component grows such for example, something changed and another database
+  call was made to get more information
+
+  unmounting - final phase, is the component death. We are done
+
+* [ ] What is the purpose of a custom hook?
+
+        mechanism to reuse stateful logic such as setting up a subscription and remembering the current value
+
+* [ ] Why is it important to test our apps?
+
+        It is important to test our apps mainly because we want to make sure what we offer to our end users and clients actually works
+        and renders the content it is supposed to
 
 ## Project Set Up
 
@@ -44,7 +62,7 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request.
 - [ ] PM then will count the HW as done by merging the branch back into master.
 
